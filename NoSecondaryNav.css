@@ -1,0 +1,8 @@
+<style>
+/* Hide secondary navigation on mobile */
+@media only screen and (max-width: 767px) {
+    .mobile-secondary-nav-links {
+        display: none !important;
+    }
+}
+</style>
