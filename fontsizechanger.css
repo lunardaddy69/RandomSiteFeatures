@@ -1,0 +1,10 @@
+#scroll-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: hsla(43, 100%, 96%, 0.8); /* Normal text color */
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+#scroll-text.scroll-active {
+  font-size: 20px; /* Change font size when scrolling */
+}
